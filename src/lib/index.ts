@@ -2,3 +2,6 @@
 
 export {Skillz} from "./skillz"
 export type {SkillTree} from "./skillz"
+
+export type {UniversityInfo} from "./education"
+export {colleges} from "./education"

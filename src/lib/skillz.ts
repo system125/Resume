@@ -10,16 +10,20 @@ const programmingSkillz:SkillTree = {
             level: 5
         },
         {
+            name: "Matlab",
+            level: 4.8
+        },
+        {
             name:"C#",
             level:4.5
         },
         {
             name:"C++",
-            level:4
+            level:4.5
         },
         {
             name:"Rust",
-            level: 3
+            level: 3.2
         }
     ]
 
@@ -30,17 +34,21 @@ const CadSkillz:SkillTree = {
     skills: [
         {
             name: "SolidWorks",
-            level: 4.5
+            level: 4.8
         },
         {
             name: "Fusion 360",
-            level: 4.5
+            level: 4.6
+        },
+        {
+            name: "AutoCAD",
+            level: 4.9
         }
     ]
 }
 
 const CEASkillz:SkillTree = {
-    Category: "CEA",
+    Category: "Simulation",
     skills: [
         {
             name: "OpenFOAM",
@@ -49,6 +57,10 @@ const CEASkillz:SkillTree = {
         {
             name: "Salome Meca",
             level: 3
+        },
+        {
+            name: "Car Sim",
+            level: 4
         }
     ]
 }
