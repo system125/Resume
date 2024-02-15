@@ -1,6 +1,6 @@
 
-export interface Skillz{level:number,name:string}
-export interface SkillTree{skills: Skillz[],Category:string}
+export interface Skill{level:number,name:string}
+export interface SkillTree{skills: Skill[],Category:string}
 
 const programmingSkillz:SkillTree = {
     Category:"Programming",

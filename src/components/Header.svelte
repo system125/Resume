@@ -7,7 +7,7 @@
     
     <header class="flex flex-row p-4 content-center w-[100%] bg-slate-800">
         <div class="pr-4">
-            <img src="userIcon.png" class="w-16 aspect-auto"/>
+            <img src="userIcon.png" alt="My_Image" class="w-16 aspect-auto"/>
 
         </div>
         <div class="flex flex-col flex-1">
