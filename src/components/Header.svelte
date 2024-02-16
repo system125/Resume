@@ -11,22 +11,22 @@
 
         </div>
         <div class="flex flex-col flex-1">
-            <h1 class="text-white text-[4rem]">
+            <h1 class="text-white text-4xl">
                 Sanjeev Sapkota
             </h1>
 
             <section class="flex flex-row w-[100%] content-center justify-between">
-                <p class="text-white text-xl">
+                <p class="text-white text-sm">
                     <i class="fa-solid fa-envelope"/>
                     sanjeevsapkota35@gmail.com
                 </p>
-                <p class="text-white text-xl">
+                <p class="text-white text-sm">
                     <i class="fa-solid fa-phone"/>
                     +977 970 601 7727
                 </p>
             </section>
             <section>
-                <p class="text-white text-xl">
+                <p class="text-white text-sm">
                     <i class="fa-solid fa-location-dot"/>
                     Boharatar, Balaju-16 Kathmandu, Nepal
                 </p>
