@@ -4,7 +4,8 @@ export interface UniversityInfo{
     endDate:string,
     collegeName:string,
     degree:string,
-    field:string
+    field:string,
+    cGpa:number
 } 
 
 
@@ -13,7 +14,8 @@ const Bit:UniversityInfo = {
     endDate:"June-2021",
     collegeName:"Birla Institute of Technology",
     degree:"B.E",
-    field:"Mechanical Engineering"
+    field:"Mechanical Engineering",
+    cGpa: 9.5
 }
 
 const UWaterloo:UniversityInfo = {
@@ -21,7 +23,8 @@ const UWaterloo:UniversityInfo = {
     endDate:"Dec-2023",
     collegeName:"University of Waterloo",
     degree:"M.Eng",
-    field:"Mechanical and Mechatronics Engineering"
+    field:"Mechanical and Mechatronics Engineering",
+    cGpa: 8.55
 }
 
 export const colleges:UniversityInfo[] = [Bit,UWaterloo]
