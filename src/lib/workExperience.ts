@@ -31,5 +31,5 @@ const goldStar:WorkInfo = {
     ]
 }
 
-export const WorkExperience = [Abm]
-export const InternExperience = [goldStar]
+export const WorkExperienceData:WorkInfo[] = [Abm,]
+export const InternExperienceData:WorkInfo[] = [goldStar]
