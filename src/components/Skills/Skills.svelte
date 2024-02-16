@@ -5,14 +5,14 @@
 </script>
 
 <section class="flex flex-col p-2 shadow-sm shadow-black rounded-md gap-1">
-    <h3 class="text-2xl text-center">{skillz.Category}</h3>
+    <h3 class="text-xl text-center">{skillz.Category}</h3>
     <div class="w-[95%] self-center bg-black h-0.5"></div>
     
     <ul>
     {#each skillz.skills as skill}
        <li>
         <div class="flex flex-row justify-between px-0 content-center">
-            <p>{skill.name}</p>
+            <p class="text-sm">{skill.name}</p>
             <SkillLevels skillLevel={skill.level} />
         </div>
     </li> 
