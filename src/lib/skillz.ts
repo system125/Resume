@@ -6,6 +6,18 @@ const programmingSkillz:SkillTree = {
     Category:"Programming",
     skills: [
         {
+            name:"HTML",
+            level: 4.5
+        },
+        {
+            name: "TypeScript",
+            level: 4
+        },
+        {
+            name: "Css",
+            level:3.8
+        },
+        {
             name:"Python",
             level: 5
         },
